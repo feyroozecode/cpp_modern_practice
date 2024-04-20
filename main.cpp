@@ -35,7 +35,7 @@ int main() {
 
   // init a var with there types
   int xAbs = 123;
-  int yAbs { xAbs };
+  int yAbs =  { xAbs };
   int zAbs = { xAbs };
 
   std::cout << "The value of xAbs, yAbs, zAbs => " << xAbs << ", " << yAbs << ", " << zAbs << "\n"
